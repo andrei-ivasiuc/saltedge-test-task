@@ -8,8 +8,6 @@ class Model(object):
     """
 
     db_credentials = None
-    connection = None
-    cursor = None
 
     def __init__(self):
         """
