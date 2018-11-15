@@ -52,6 +52,5 @@ def get_events_stats():
     :return: str(JSON)
     """
     stats = db.get_events_stats()
-    print stats
     return jsonify(stats)
 
